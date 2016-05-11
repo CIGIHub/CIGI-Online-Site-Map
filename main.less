@@ -1,0 +1,99 @@
+@link: blue;
+@nofollow: @link;
+@embed: grey;
+@reference: lightgrey;
+
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,f7f7f7+100 */
+    background: #feffff;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #feffff 0%, #f7f7f7 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #feffff 0%, #f7f7f7 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #feffff 0%, #f7f7f7 100%);
+}
+
+.link {
+    fill: none;
+    stroke: black;
+    stroke-width: 1.5px;
+}
+
+#link {
+    fill: @link;
+}
+#nofollow {
+    fill: @nofollow;
+}
+
+#embed { 
+    fill: @embed; 
+}
+
+#reference {
+    fill: @reference;
+}
+
+.link.link {
+    stroke: @link;
+}
+
+.link.embed {
+    stroke: @embed;
+}
+
+.link.reference {
+    stroke: @reference;
+}
+
+.link.nofollow {
+    stroke-dasharray: 0, 2 1;
+}
+
+circle {
+    fill: white;
+    stroke: black;
+    stroke-width: 1.5px;
+}
+
+text {
+    font: 10px sans-serif;
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+.ledgend {
+    font-family: sans-serif;
+    background: white;
+    border: 1px black solid;
+    width: 200px;
+    padding: .5em;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.ledgend .link {
+    color: @link;
+}
+
+.ledgend .link {
+    color: @nofollow;
+}
+
+.ledgend .embed {
+    color: @embed;
+}
+
+.ledgend .reference {
+    color: @reference;
+}
+
+body > svg > g:nth-child(3) > circle:nth-child(1) {
+    fill: black;
+}
+
+body > svg > g> circle:hover {
+    filter: drop-shadow(5px 5px 5px black)
+}
