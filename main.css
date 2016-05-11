@@ -20,19 +20,19 @@ body {
 
 #link,
 #nofollow {
-    fill: #0debb0;
-}
-
-#embed {
     fill: blue;
 }
 
+#embed {
+    fill: grey;
+}
+
 .link.link {
-    stroke: #0debb0;
+    stroke: blue;
 }
 
 .link.embed {
-    stroke: blue;
+    stroke: grey;
 }
 
 .link.nofollow {
@@ -63,13 +63,17 @@ text {
 }
 
 .ledgend .link {
-    color: #0debb0;
+    color: blue;
 }
 
 .ledgend .embed {
-    color: blue;
+    color: grey;
 }
 
 body > svg > g:nth-child(3) > circle:nth-child(1) {
     fill: black;
+}
+
+body > svg > g> circle:hover {
+    filter: drop-shadow(5px 5px 5px black)
 }

@@ -47,7 +47,7 @@ var path = svg.append("g").selectAll("path")
 var circle = svg.append("g").selectAll("circle")
     .data(force.nodes())
   .enter().append("circle")
-    .attr("r", 6)
+    .attr("r", 5)
     .call(force.drag);
 
 var text = svg.append("g").selectAll("text")
