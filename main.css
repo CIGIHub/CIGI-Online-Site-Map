@@ -32,6 +32,9 @@ body {
 .link.embed {
   stroke: grey;
 }
+.link.filter {
+  stroke: lightgrey;
+}
 .link.reference {
   stroke: lightgrey;
 }
@@ -67,7 +70,8 @@ text {
 .ledgend .embed {
   color: grey;
 }
-.ledgend .reference {
+.ledgend .reference,
+.ledgent .filter {
   color: lightgrey;
 }
 body > svg > g:nth-child(3) > circle:nth-child(1) {
