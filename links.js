@@ -17,19 +17,18 @@ var links = [
         // About
       {source: "CIGI Campus", target: "About", type: "embed"},
       {source: "History", target: "About", type: "embed"},
-//      {source: "Donate", target: "Funding", type: "embed"},
         
       {source: "About", target: "Leadership", type: "link"},
       {source: "About", target: "Annual Report", type: "link"},
 //      {source: "About", target: "Projects", type: "link"},
 //      {source: "About", target: "Programs", type: "link"},
 //      {source: "About", target: "Funding", type: "link"},
-//      {source: "About", target: "Staff Directory", type: "link"},
-//      {source: "Staff Directory", target: "Staff Member", type: "link"},
+      {source: "About", target: "Staff Directory", type: "link"},
+      {source: "Staff Directory", target: "Staff Member", type: "link"},
         // Research
 //      {source: "Research", target: "Programs", type: "link"},
-//      {source: "Research", target: "Projects", type: "link"},
-      {source: "Research", target: "Research", type: "embed"},
+      
+      {source: "Research", target: "Publication Page", type: "link"},
     
     
       {source: "Programs", target: "ILRP", type: "link"},
@@ -42,8 +41,12 @@ var links = [
       {source: "Projects", target: "Global Commission on Internet Governance", type: "nofollow"},
       {source: "Projects", target: "Africa Portal", type: "nofollow"},
       {source: "Projects", target: "Institute for New Economic Thinking", type: "nofollow"},
-//      {source: "Experts", target: "Expert Profile", type: "link"},
-//      {source: "Expert Profile", target: "Publications", type: "link"},
+      {source: "Experts", target: "Expert Profile", type: "link"},
+      {source: "Expert Profile", target: "Publication Page", type: "link"},
+      {source: "Expert Profile", target: "Blogs", type: "link"},
+      {source: "Expert Profile", target: "Programs", type: "link"},
+      
+      {source: "About", target: "Programs", type: "link"},
         // Content themes
 
       {source: "Publications Results", target: "Research", type: "embed"},        
